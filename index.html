@@ -1,69 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aula 25/03 - Tabelas</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01</title>
+</head>
+<body>
     <header>
-      <h1>Minha Segunda Página</h1>
-    </header>
-
-    <nav>
-        <a href="http://www.ucb.br" target="_blank ">Menu 1</a><br>
-        <a href="http://www.google.com" target="_blank ">Menu 2</a>
+    <section id="HTML Basico">
+    <h1 style="text-align: center;">Primeiro Projeto Front-End </h1>
+    <nav style="text-align: center;">
+      <a href="#HTML Basico">HTML Básico</a>&nbsp; | &nbsp;&nbsp;
+      <a href="#Tabela">Tabela</a>&nbsp; | &nbsp;&nbsp;
+      <a href="#Links Uteis">Links uteis</a>&nbsp;&nbsp;&nbsp;
     </nav>
+    </header>
+    <hr>
+    <h2 style="text-align: center;">Sobre o HTML Básico</h2>
+    <h3>O que aprendi</h3>
 
-    <section>
-      <header><h3>Capitulo 1</h3></header>
-      <pre>Este texto é pré-formatado. E assim vai ser Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum repellendus, numquam similique, saepe doloremque vitae accusamus aut natus, amet quibusdam assumenda optio quos voluptate. Ea, fuga! Expedita, molestias odio?</pre>
-      <img title="Arvore" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Arvore vermelha" width="250px" height="170">
-    
-      <blockquote cite="http://www.ucb.br">
-        <p>"A Universidade Católica de Brasília é uma universidade particular brasileira, com sede em Taguatinga, no Distrito Federal e com Campus nas regiões administrativas de Taguatinga, Brasília, Ceilândia e Sobradinho."</p>
+    <p>inicialmente, aprendi sobre o que é HTML</p>
+    <article>
+    <blockquote cite="HTML">
+        <p>
+            "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web."
+        </p>
     </blockquote>
-
-    <figure>
-        <figcaption>Logotipo</figcaption>
-        <a href="http://www.ucb.br" target="_blank"> <img src="https://s1.static.brasilescola.uol.com.br/be/vestibular/-59f0bc5fbf61d.jpg"> </a>
-    </figure>
-    <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sint quae praesentium sequi recusandae at distinctio error tempore quia itaque aut, odit maxime ad? Enim unde doloribus harum quo porro.</p>
-    </div>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni in repudiandae ipsa ratione nulla inventore quod maxime ipsum vero. Deserunt eligendi debitis saepe, et sed eos at architecto inventore?</p>
-    </div>
-
-    teste
-<div>
-    <table border="1">
-        <tr>
-            <td colspan="3">Celula 1</td>
-        </tr>
-        <tr>
-            <td>Celula 2</td>
-            <td>Celula 3</td>
-            <td>Celula 4</td>
-        </tr>
-    </div>
-
-        <table border="1">
-            <tr>
-                <td rowspan="3">celula 1</td>
-                <td>celula 2</td>
-            </tr>
-            <tr>
-                <td>celula 3</td>
-            </tr>
-            <tr>
-                <td>celula 4</td>
-            </tr>
-        </table>
-
-    </table>
+    </article>
+    <aside>
+    <p>Posteriormente aprendi como funciona o HTML e sua estrutura basica</p>
+    <p>Posteriormente aprendi sobre as Tags do HTML</p>
+    <p>Posteriormente aprendi sobre Links e Imagens</p>
+    <p>Posteriormente aprendi sobre Tabelas e suas estruturas</p>
+    <p>Posteriormente aprendi sobre IDs</p>
+    </aside>
+    <img src="images/html_image.jpg" alt="HTML IMAGE" height="200" width="300">
 
     </section>
-    <footer>Designer by @ Fulano de tal | 2023</footer>
-  </body>
+
+    <section id="Tabela">
+    <h3>O que estou aprendendo agora:</h3>
+    <p>Agora estou fazendo exercicios praticos para criar uma pagina HTML!</p>
+    <p>Em breve aprenderei sobre CSS!</p>
+
+    <h2 style="text-align: center;">Sobre Tabela</h2>
+
+    <h3>O que aprendi:</h3>
+
+    <p>"As tabelas são listas de dados em duas dimensões e são compostas por linhas e colunas. Portanto, são muito visualizadas para apresentar dados de uma forma organizada"</p>
+    <h3>Minha primeira tabela</h3>
+    
+    <p>Minha tabela contendo as tags de titulo</p>
+
+    <table border="1">
+        <tr>
+            <th colspan="4">EXEMPLO DE COLSPAN</th>
+        </tr>
+        <tr>
+            <th rowspan="8">EXEMPLO DE ROWSAPAN</th>
+        </tr>
+        <tr>
+            <th>tag</th>
+            <th>descrição</th>
+            <th>exemplo</th>
+        </tr>
+        <tr>
+            <td>h1</td>
+            <td>Titulo 1</td>
+            <td><h1>exemplo</h1></td>
+        </tr>
+        <tr>
+            <td>h2</td>
+            <td>Titulo 2</td>
+            <td><h2>exemplo</h2></td>
+        </tr>
+        <tr>
+            <td>h3</td>
+            <td>Titulo 3</td>
+            <td><h3>exemplo</h3></td>
+        </tr>
+        <tr>
+            <td>h4</td>
+            <td>Titulo 4</td>
+            <td><h4>exemplo</h4></td>
+        </tr>
+        <tr>
+            <td>h5</td>
+            <td>Titulo 5</td>
+            <td><h5>exemplo</h5></td>
+        </tr>
+        <tr>
+            <td>h6</td>
+            <td>Titulo 6</td>
+            <td><h6>exemplo</h6></td>
+        </tr>
+    </table>    
+    </section>
+
+    <section id="Links Uteis">
+        <h2 style="text-align: center;">Links Úteis</h2>
+
+        <nav>
+            <a href="https://validator.w3.org/">Validator HTML</a><br>
+            <a href="https://ucb.catolica.edu.br/portal/">Portal UCB</a><br>
+            <a href="https://www.google.com.br/?safe=active&ssui=on">Google</a>
+        </nav>
+    <hr>
+    </section>
+
+    <footer>
+        <a style="margin-left: 90%;" href="#HTML Basico">HTML Básico</><br>
+        <a style="margin-left: 90%;" href="#Tabela">Tabela</a><br>
+        <a style="margin-left: 90%;" href="#Links Uteis">Links uteis</a><br>
+
+        <p style="text-align: center;">Todos os direitos reservados &nbsp; | <a href="https://ucb.catolica.edu.br/portal/">UCB</a></p> 
+    </footer>
+</body>
 </html>
