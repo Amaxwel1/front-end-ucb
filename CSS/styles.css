@@ -1,0 +1,12 @@
+.list-under {
+    color: aquamarine;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#list-order {
+    color: blueviolet;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
