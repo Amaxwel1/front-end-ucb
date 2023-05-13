@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    width: 100%;
+    height: 85px;
+    background-color: #27348B;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.links {
+    position: absolute;
+    right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+li a:hover {
+    color: rgb(94, 94, 94);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#corpo {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(160, 160, 160);
+}
+
+.texto_primario h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 32vh;
+}
+
+.link_sub {
+    text-align: center;
+    position: relative;
+    top: 36vh;
+}
+
+.link_sub a {
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.saibamaissub {
+    color: white;
+}
+
+.link_sub a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.contatosub {
+    color: black;
+    background-color: white;
+}
+
+fieldset {
+    text-align: center;
+    border: 2px solid white;
+}
