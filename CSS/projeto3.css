@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: grey;
+}
+
+#content {
+    flex-grow: 1;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.text_center {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+.menu li {
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.players_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 35px;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+    height: 210px;
+    width: 185px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-image: url(../images/michael-jordan-l.webp);
+    background-size: cover;
+}
+
+.circle2 {
+    background-image: url(../images/lebron.jpg);
+    background-size: cover;
+}
+
+.circle3 {
+    background-image: url(../images/kareem-abdul-jabbar-durante-partida-do-los-angeles-lakers-na-nba-em-1981-1608334573320_v2_1x1.jpg);
+    background-size: cover;
+}
+
+.circle4 {
+    background-image: url(../images/Bill-Russell-Boston-Celtics-undated-photo.webp);
+    background-size: cover;
+}
+
+.players_info {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 35px;
+}
+
+.retang1 , .retang2, .retang3, .retang4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    width: 185px;
+    height: 315px;
+    background-color: rgba(255, 0, 0, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 55px;
+
+}
+
+.footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+} 
+
+@media ((min-width:730px) and (max-width:850px)){
+    
+    .players_text {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 35px;
+    }
+    
+    .circle1, .circle2, .circle3, .circle4 {
+        height: 175px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    
+    .circle1 {
+        background-image: url(../images/michael-jordan-l.webp);
+        background-size: cover;
+    }
+    
+    .circle2 {
+        background-image: url(../images/lebron.jpg);
+        background-size: cover;
+    }
+    
+    .circle3 {
+        background-image: url(../images/kareem-abdul-jabbar-durante-partida-do-los-angeles-lakers-na-nba-em-1981-1608334573320_v2_1x1.jpg);
+        background-size: cover;
+    }
+    
+    .circle4 {
+        background-image: url(../images/Bill-Russell-Boston-Celtics-undated-photo.webp);
+        background-size: cover;
+    }
+    
+    .players_info {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 35px;
+    }
+    
+    .retang1 , .retang2, .retang3, .retang4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        width: 150px;
+        height: 290px;
+        background-color: rgba(255, 0, 0, 0.747);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:589px){
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .logo {
+        color: white;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    
+    .text_center {
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        list-style-type: none;
+    }
+    
+    .menu li {
+        margin-right: 25px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .players_text {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+        margin-bottom: -10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        margin: 35px;
+        height: auto;
+        width: 200px;
+    }
+    
+    .circle1, .circle2, .circle3, .circle4 {
+        height: 175px;
+        width: 150px;
+        margin-top: 45px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    
+    .circle1 {
+        background-image: url(../images/michael-jordan-l.webp);
+        background-size: cover;
+    }
+    
+    .circle2 {
+        background-image: url(../images/lebron.jpg);
+        background-size: cover;
+    }
+    
+    .circle3 {
+        background-image: url(../images/kareem-abdul-jabbar-durante-partida-do-los-angeles-lakers-na-nba-em-1981-1608334573320_v2_1x1.jpg);
+        background-size: cover;
+    }
+    
+    .circle4 {
+        background-image: url(../images/Bill-Russell-Boston-Celtics-undated-photo.webp);
+        background-size: cover;
+    }
+    
+    .players_info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-bottom: 25px;
+        margin-top: -610px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: flex-end;
+        justify-content: flex-start;
+        margin: -315px 35px 35px 35px;
+
+    }
+    
+    .retang1 , .retang2, .retang3, .retang4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 240px;
+        height: 195px;
+        background-color: rgba(255, 0, 0, 0.747);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
+
+@media ((min-width:590px) and (max-width:729px)){
+    .players_text {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+        margin-bottom: -10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        margin: 35px;
+        height: auto;
+        width: 200px;
+    }
+    
+    .circle1, .circle2, .circle3, .circle4 {
+        height: 210px;
+        width: 185px;
+        margin-top: 45px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    
+    .circle1 {
+        background-image: url(../images/michael-jordan-l.webp);
+        background-size: cover;
+    }
+    
+    .circle2 {
+        background-image: url(../images/lebron.jpg);
+        background-size: cover;
+    }
+    
+    .circle3 {
+        background-image: url(../images/kareem-abdul-jabbar-durante-partida-do-los-angeles-lakers-na-nba-em-1981-1608334573320_v2_1x1.jpg);
+        background-size: cover;
+    }
+    
+    .circle4 {
+        background-image: url(../images/Bill-Russell-Boston-Celtics-undated-photo.webp);
+        background-size: cover;
+    }
+    
+    .players_info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: -700px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: flex-end;
+        justify-content: flex-start;
+        margin: -315px 35px 35px 35px;
+
+    }
+    
+    .retang1 , .retang2, .retang3, .retang4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 290px;
+        height: 215px;
+        background-color: rgba(255, 0, 0, 0.747);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:490px){
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .logo {
+        color: white;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    
+    .text_center {
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        list-style-type: none;
+    }
+    
+    .menu li {
+        margin-right: 25px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .players_text {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+        margin-bottom: -10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 35px;
+        height: auto;
+        width: auto;
+    }
+    
+    .circle1, .circle2, .circle3, .circle4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 175px;
+        width: 150px;
+        margin-top: 50px;
+        margin-bottom: 170px;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin-left: 30%;
+    }
+    
+    .circle1 {
+        background-image: url(../images/michael-jordan-l.webp);
+        background-size: cover;
+    }
+    
+    .circle2 {
+        background-image: url(../images/lebron.jpg);
+        background-size: cover;
+    }
+    
+    .circle3 {
+        background-image: url(../images/kareem-abdul-jabbar-durante-partida-do-los-angeles-lakers-na-nba-em-1981-1608334573320_v2_1x1.jpg);
+        background-size: cover;
+    }
+    
+    .circle4 {
+        background-image: url(../images/Bill-Russell-Boston-Celtics-undated-photo.webp);
+        background-size: cover;
+    }
+    
+    .players_info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: -1060px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin: -440px 35px 35px 35px;
+
+    }
+    
+    .retang1 , .retang2, .retang3, .retang4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding-top: 15px;
+        margin-top: 100px;
+        margin-right: 5%;
+        margin-bottom: 100px;
+        width: 240px;
+        height: 195px;
+        background-color: rgba(255, 0, 0, 0.747);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
